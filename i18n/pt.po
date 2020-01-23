@@ -1,0 +1,104 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* done_task
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-23 12:11+0000\n"
+"PO-Revision-Date: 2020-01-23 12:15+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language: pt\n"
+
+#. module: done_task
+#: model_terms:ir.ui.view,arch_db:done_task.confirm_wizard_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: done_task
+#: model_terms:ir.ui.view,arch_db:done_task.confirm_wizard_view
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: done_task
+#: model:ir.model,name:done_task.model_confirm_wizard
+msgid "Confirm Wizard"
+msgstr "Wizard de Confirmação"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_confirm_wizard__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_confirm_wizard__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_confirm_wizard__display_name
+msgid "Display Name"
+msgstr "Nome"
+
+#. module: done_task
+#: model_terms:ir.ui.view,arch_db:done_task.confirm_task
+msgid "Set Done"
+msgstr "Finalizar"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_confirm_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_confirm_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_confirm_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_confirm_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_confirm_wizard__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: done_task
+#: model:ir.model,name:done_task.model_project_project
+msgid "Project"
+msgstr "Projeto"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_confirm_wizard__project_task
+msgid "Project Task"
+msgstr "Tarefa do Projeto"
+
+#. module: done_task
+#: model:ir.model.fields,field_description:done_task.field_project_task__stage_id_name
+msgid "Stage Id Name"
+msgstr "Nome do Estado"
+
+#. module: done_task
+#: model:ir.model,name:done_task.model_project_task
+msgid "Task"
+msgstr "Tarefa"
+
+#. module: done_task
+#: code:addons/done_task/models/project.py:51
+#, python-format
+msgid "When you press 'Confirm', the following tasks will be set as 'Done':<br/>"
+msgstr "Ao pressionar 'Confirmar', as seguintes tarefas vão passar ao estado 'Concluído':<br/>"

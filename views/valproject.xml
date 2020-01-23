@@ -1,0 +1,35 @@
+<odoo>
+    <record id="confirm_task" model="ir.ui.view">
+        <field name="name">confirm.task</field>
+        <field name="model">project.task</field>
+
+        <field name="inherit_id" ref="project.view_task_kanban"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div/field[@name='activity_ids']" position="after">
+                <field name="child_ids" invisible="1"/>
+                <field name="stage_id_name" invisible="1"/>
+                <button name="open_confirm_wizard" string="Set Done" type="object" class ="btn btn-primary" readonly="1" attrs="{'invisible': ['|', ('child_ids','=', []),('stage_id_name','in', ['Done','Concluído'])]}">Set Done</button>
+
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="confirm_wizard_view">
+        <field name="name">Confirm</field>
+        <field name="model">confirm.wizard</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form>
+                <h4><field name="name" readonly="1"/></h4>
+                <footer style="display: table;text-align: center;margin-left: auto; margin-right: auto;">
+                    <button string="Cancel" special="cancel"
+                            class="btn btn-danger"/>
+                    <button name="confirm_action" string="Confirm"
+                            type="object" class="btn btn-success"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>
+
