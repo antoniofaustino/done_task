@@ -68,4 +68,5 @@ class ConfirmWizard(models.TransientModel):
 
     @api.multi
     def confirm_action(self):
+        #
         return self.project_task.set_subtasks_done()
