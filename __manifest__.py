@@ -6,7 +6,7 @@
         Module to update stage_id of child tasks""",
 
     'description': """
-        Module to update stage_id of child tasks
+        Long description of module's purpose
     """,
 
     'author': "My Company",
